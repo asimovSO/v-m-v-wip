@@ -1,10 +1,10 @@
 <template>
   <v-app>
     <Header></Header>
-    <keep-alive>
+
       <router-view></router-view>
     
-    </keep-alive>
+
     <Footer></Footer>
   </v-app>
 </template>
